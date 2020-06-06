@@ -12,8 +12,8 @@ HOUR.style.transition = "transform .5s ease-in-out";
 let date = new Date();
 
 let seconds = date.getSeconds();
-let minutes = date.getMinutes() + seconds/60;
-let hours = date.getHours() + minutes/60 + seconds/3600;
+let minutes = date.getMinutes();
+let hours = date.getHours();
 
 SECOND.style.transform = "rotate(" + seconds*6 + "deg)";
 MINUTE.style.transform = "rotate(" + minutes*6 + "deg)";
