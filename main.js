@@ -17,7 +17,7 @@ let hours = date.getHours() + minutes/60 + seconds/3600;
 
 SECOND.style.transform = "rotate(" + seconds*6 + "deg)";
 MINUTE.style.transform = "rotate(" + minutes*6 + "deg)";
-HOUR.style.transform = "rotate(" + seconds*30 + "deg)";
+HOUR.style.transform = "rotate(" + hours*30 + "deg)";
 
 let dayOfTheWeek = function(n) {
     switch (n) {
